@@ -1,0 +1,17 @@
+/* TEAM */
+Developer: Sudip KC
+Site: https://kcsudip.com.np
+Twitter: @sudipkc0
+GitHub: sudipkc3
+Location: Pokhara, Nepal
+
+/* SITE */
+Last update: 2024/11/28
+Standards: HTML5, CSS3, ES6+
+Components: React, Vite, Tailwind CSS
+Software: Visual Studio Code
+
+/* THANKS */
+Icons: Lucide React (https://lucide.dev)
+Notifications: React Hot Toast
+File Downloads: FileSaver.js

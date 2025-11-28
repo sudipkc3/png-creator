@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F9FAFB"/>
+      <stop offset="100%" style="stop-color:#E5E7EB"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="200" fill="#3B82F6" fill-opacity="0.1"/>
+  <circle cx="100" cy="530" r="150" fill="#3B82F6" fill-opacity="0.1"/>
+
+  <!-- Main content area -->
+  <rect x="60" y="60" width="1080" height="510" rx="20" fill="white" fill-opacity="0.9"/>
+
+  <!-- Icon -->
+  <g transform="translate(100, 180)">
+    <rect width="120" height="120" rx="24" fill="url(#iconGrad)"/>
+    <rect x="20" y="25" width="80" height="70" rx="8" fill="white" fill-opacity="0.95"/>
+    <!-- Checkered pattern -->
+    <rect x="25" y="30" width="15" height="15" fill="#E5E7EB"/>
+    <rect x="40" y="30" width="15" height="15" fill="#F3F4F6"/>
+    <rect x="55" y="30" width="15" height="15" fill="#E5E7EB"/>
+    <rect x="25" y="45" width="15" height="15" fill="#F3F4F6"/>
+    <rect x="40" y="45" width="15" height="15" fill="#E5E7EB"/>
+    <rect x="55" y="45" width="15" height="15" fill="#F3F4F6"/>
+    <!-- Color preview -->
+    <rect x="70" y="30" width="25" height="55" rx="4" fill="#3B82F6"/>
+    <circle cx="42" cy="72" r="10" fill="#FBBF24"/>
+    <polygon points="25,90 50,65 75,90" fill="#22C55E"/>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#111827">PNG Generator</text>
+
+  <!-- Subtitle -->
+  <text x="250" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#6B7280">Create Custom Solid Color Images</text>
+
+  <!-- Features -->
+  <g transform="translate(250, 340)">
+    <rect width="180" height="40" rx="20" fill="#DBEAFE"/>
+    <text x="90" y="27" font-family="system-ui, sans-serif" font-size="16" fill="#1D4ED8" text-anchor="middle">Custom Dimensions</text>
+  </g>
+  <g transform="translate(450, 340)">
+    <rect width="140" height="40" rx="20" fill="#DCFCE7"/>
+    <text x="70" y="27" font-family="system-ui, sans-serif" font-size="16" fill="#166534" text-anchor="middle">Color Picker</text>
+  </g>
+  <g transform="translate(610, 340)">
+    <rect width="140" height="40" rx="20" fill="#FEF3C7"/>
+    <text x="70" y="27" font-family="system-ui, sans-serif" font-size="16" fill="#92400E" text-anchor="middle">Transparency</text>
+  </g>
+  <g transform="translate(770, 340)">
+    <rect width="180" height="40" rx="20" fill="#FCE7F3"/>
+    <text x="90" y="27" font-family="system-ui, sans-serif" font-size="16" fill="#9D174D" text-anchor="middle">PNG, JPG, WebP</text>
+  </g>
+
+  <!-- Color swatches preview -->
+  <g transform="translate(850, 150)">
+    <rect x="0" y="0" width="80" height="80" rx="12" fill="#EF4444"/>
+    <rect x="90" y="0" width="80" height="80" rx="12" fill="#22C55E"/>
+    <rect x="0" y="90" width="80" height="80" rx="12" fill="#3B82F6"/>
+    <rect x="90" y="90" width="80" height="80" rx="12" fill="#F59E0B"/>
+  </g>
+
+  <!-- URL -->
+  <text x="250" y="440" font-family="system-ui, sans-serif" font-size="20" fill="#9CA3AF">png.kcsudip.com.np</text>
+
+  <!-- Author credit -->
+  <g transform="translate(250, 480)">
+    <text font-family="system-ui, sans-serif" font-size="18" fill="#6B7280">
+      <tspan>Built by </tspan>
+      <tspan fill="#3B82F6" font-weight="600">Sudip KC</tspan>
+    </text>
+  </g>
+
+  <!-- Free badge -->
+  <g transform="translate(1000, 480)">
+    <rect width="100" height="36" rx="18" fill="#22C55E"/>
+    <text x="50" y="24" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">FREE</text>
+  </g>
+</svg>
